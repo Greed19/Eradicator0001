@@ -1,0 +1,9 @@
+.board{
+    height: 300px;
+    width: 300px;
+    
+
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}

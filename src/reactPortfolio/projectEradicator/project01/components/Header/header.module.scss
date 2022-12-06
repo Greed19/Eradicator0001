@@ -1,0 +1,29 @@
+@import "../../styles.module.scss";
+
+.header_container{
+    width: calc(100vw - 300px);
+    margin: 50px 0 0;
+    .header{
+        display: flex;
+        flex: 1;
+        position: relative;
+        align-items: center;
+        .heading1{
+            color: $green;
+            font-size: 20px;
+        }
+        .heading2{
+            color: $slightest-slate;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0 2rem;
+            
+        }
+        .line{
+            height: 1px;
+            width: 50%;
+            background-color: $green;
+        }
+    }
+
+}

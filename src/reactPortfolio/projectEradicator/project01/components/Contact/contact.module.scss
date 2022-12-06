@@ -1,0 +1,37 @@
+@import '../../styles.module.scss';
+
+.contact_container{
+    height: 100vh;
+    width: calc(100vw - 200px);
+    margin:  0 auto;
+    padding: 50px 0 0 ;
+    .container{
+        display: flex;
+        width: 30%;
+        height: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto auto;
+
+
+        .heading{
+            color: $green;
+            font-size: 50px;
+            margin: 0 0 20px;
+        }
+        .desc{
+            margin: 0 0 20px;
+        }
+        .btn{
+            
+            width: 200px;
+            height: 50px;
+            border-radius: 0.5rem;
+            background-color: $transparent-navy;
+            font-size: 20px;
+            color: $green;
+            border: 1px solid $light-slate;
+        }
+    }
+}

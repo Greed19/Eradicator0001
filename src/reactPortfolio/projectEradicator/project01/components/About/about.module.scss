@@ -1,0 +1,42 @@
+@import "../../styles.module.scss";
+
+.about_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        width: calc(100vw - 300px);
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 40%;
+        }
+        .right{
+            display: flex;
+            .img{
+                border-radius: 15px;
+                height: 300px;
+                width: 300px;
+                z-index: 2;
+            }
+            .imgBorder{
+                position: absolute;
+                height: 300px;
+                width: 300px;
+                border: 1px solid $green;
+                border-radius: 15px;
+                margin: 15px 0 0 15px;
+                transition: $transition;
+            }
+            .img:hover ~ .imgBorder{
+                margin: 25px 0 0 25px;
+            }
+        }
+    }
+}

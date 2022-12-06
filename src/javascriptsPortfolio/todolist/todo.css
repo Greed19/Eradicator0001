@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+.todoMainContainer{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    text-shadow: 5px 5px 5px white,1px 1px 1px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+#title{
+    margin: 20px 0;
+}
+.todoForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoInput,
+.btnInput{
+    width: 500px;
+    height: 25px;
+    border: none;
+    padding: 0 0 0 10px;
+    border-radius: 5px 0 0 5px;
+
+}
+.btnInput{
+    background-color: black;
+    width: 50px;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.btnInput:hover{
+
+    background-color: #fda085;
+    color: white;
+}
+.todoList{
+
+}
+.todoDiv{
+
+    display: flex;
+    height: 25px;
+    width: 550px;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.todoItem{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    background-color: white;
+    flex: 1;
+}
+.divDeleck{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.iCheck,
+.iDel{
+    height: 20px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.iCheck{
+    background-color: rgb(56, 221, 56);
+}
+.iDel{
+    background-color: rgb(230, 66, 66);
+}
+
+

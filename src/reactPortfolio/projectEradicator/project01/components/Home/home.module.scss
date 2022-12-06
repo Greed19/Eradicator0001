@@ -1,0 +1,43 @@
+@import "../../styles.module.scss";
+
+
+.home_container{
+    height: 100vh;
+    width: calc(100vw - 200px);
+    background: inherit;
+    padding: 150px 0 0;
+    color: $green;
+    z-index: 1;
+    margin: 0 auto;
+    .greet{
+        margin: 0 0 10px;
+    }
+    .heading1{
+        font-size: 80px;
+        color: $white;
+        margin: 0 0 15px;
+    }
+    .heading2{
+        color: $light_slate;
+        font-size: 45px;
+        margin: 0 0 15px;
+    }
+    .desc{
+        color: $light_slate;
+    }
+    .btn{
+        height: 50px;
+        width: 150px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin: 30px 0;
+        background-color: transparent;
+        color: $green;
+        border: 1px solid $light_slate;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: $green_tint;
+        color: $white;
+    }
+}

@@ -1,0 +1,38 @@
+$font-sans: "Calibre","Inter","San Francisco","SF Pro Text", -apple-system, system-ui, sans-serif;
+$font-mono: "SF Mono","Fira Code","Roboto Mono",monospace;
+$transition: all 0.25s cubic-bezier(0.645,0.045,0.355,.1);
+$dark_navy:#020c1b;
+$navy:#0a192f;
+$light_navy:#112240;
+$lightest_navy:#233554;
+$transparent_navy:#0a192fd9;
+$navy_shadow:rgba(2,12,27,.7);
+$dark_slate:#495670;
+$slate:#8892b0;
+$light_slate:#a8b2d1;
+$slightest_slate:#ccd6f6;
+$white:#e6f1ff;
+$green:#61ffda;
+$green_tint: rgba(100,255,218,.1);
+$fz_xxs:12px;
+$fz_xs:13px;
+$fz_md:16px;
+$fz_lg:18px;
+$fz_xl:20px;
+$fz_xxl:22px;
+$fz_heading:32px;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}

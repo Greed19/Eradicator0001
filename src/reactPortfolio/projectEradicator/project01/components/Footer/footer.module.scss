@@ -1,0 +1,16 @@
+@import "../../styles.module.scss";
+
+.footer_container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    // position: fixed;
+
+    .desc{
+        font-size: $fz_md;
+        color: $green;
+        font-weight: 500;
+    }
+}
